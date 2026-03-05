@@ -1,0 +1,18 @@
+[2026-03-05T11:03:12.472+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-05T11:03:12.562+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mongo_dag.gen_events scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2026-03-05T11:03:12.568+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mongo_dag.gen_events scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2026-03-05T11:03:12.569+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-05T11:03:12.579+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): gen_events> on 2024-01-01 00:00:00+00:00
+[2026-03-05T11:03:12.582+0000] {standard_task_runner.py:64} INFO - Started process 105 to run task
+[2026-03-05T11:03:12.585+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'mongo_dag', 'gen_events', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/mongo_dag.py', '--cfg-path', '/tmp/tmptgllb9sa']
+[2026-03-05T11:03:12.587+0000] {standard_task_runner.py:91} INFO - Job 10: Subtask gen_events
+[2026-03-05T11:03:12.647+0000] {task_command.py:426} INFO - Running <TaskInstance: mongo_dag.gen_events scheduled__2024-01-01T00:00:00+00:00 [running]> on host ad8b77f7a6a6
+[2026-03-05T11:03:12.729+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student' AIRFLOW_CTX_DAG_ID='mongo_dag' AIRFLOW_CTX_TASK_ID='gen_events' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2026-03-05T11:03:12.730+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-05T11:03:12.792+0000] {logging_mixin.py:188} INFO - Событий: 500
+[2026-03-05T11:03:12.793+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-05T11:03:12.793+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-05T11:03:12.803+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=mongo_dag, task_id=gen_events, run_id=scheduled__2024-01-01T00:00:00+00:00, execution_date=20240101T000000, start_date=20260305T110312, end_date=20260305T110312
+[2026-03-05T11:03:12.838+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-05T11:03:12.857+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-05T11:03:12.859+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

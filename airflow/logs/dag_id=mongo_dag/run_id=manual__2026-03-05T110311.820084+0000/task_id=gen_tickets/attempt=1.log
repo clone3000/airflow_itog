@@ -1,0 +1,18 @@
+[2026-03-05T11:03:38.453+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-05T11:03:38.534+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mongo_dag.gen_tickets manual__2026-03-05T11:03:11.820084+00:00 [queued]>
+[2026-03-05T11:03:38.540+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mongo_dag.gen_tickets manual__2026-03-05T11:03:11.820084+00:00 [queued]>
+[2026-03-05T11:03:38.541+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-05T11:03:38.550+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): gen_tickets> on 2026-03-05 11:03:11.820084+00:00
+[2026-03-05T11:03:38.554+0000] {standard_task_runner.py:64} INFO - Started process 294 to run task
+[2026-03-05T11:03:38.556+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'mongo_dag', 'gen_tickets', 'manual__2026-03-05T11:03:11.820084+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/mongo_dag.py', '--cfg-path', '/tmp/tmpaxkmdooq']
+[2026-03-05T11:03:38.558+0000] {standard_task_runner.py:91} INFO - Job 19: Subtask gen_tickets
+[2026-03-05T11:03:38.608+0000] {task_command.py:426} INFO - Running <TaskInstance: mongo_dag.gen_tickets manual__2026-03-05T11:03:11.820084+00:00 [running]> on host ad8b77f7a6a6
+[2026-03-05T11:03:38.682+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student' AIRFLOW_CTX_DAG_ID='mongo_dag' AIRFLOW_CTX_TASK_ID='gen_tickets' AIRFLOW_CTX_EXECUTION_DATE='2026-03-05T11:03:11.820084+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-05T11:03:11.820084+00:00'
+[2026-03-05T11:03:38.683+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-05T11:03:38.721+0000] {logging_mixin.py:188} INFO - Тикетов: 50
+[2026-03-05T11:03:38.722+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-05T11:03:38.722+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-05T11:03:38.732+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=mongo_dag, task_id=gen_tickets, run_id=manual__2026-03-05T11:03:11.820084+00:00, execution_date=20260305T110311, start_date=20260305T110338, end_date=20260305T110338
+[2026-03-05T11:03:38.769+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-05T11:03:38.788+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-05T11:03:38.790+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

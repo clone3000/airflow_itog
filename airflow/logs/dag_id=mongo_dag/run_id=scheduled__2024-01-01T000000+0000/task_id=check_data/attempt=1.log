@@ -1,0 +1,24 @@
+[2026-03-05T11:03:41.439+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-05T11:03:41.526+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mongo_dag.check_data scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2026-03-05T11:03:41.532+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mongo_dag.check_data scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2026-03-05T11:03:41.533+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-05T11:03:41.543+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): check_data> on 2024-01-01 00:00:00+00:00
+[2026-03-05T11:03:41.547+0000] {standard_task_runner.py:64} INFO - Started process 314 to run task
+[2026-03-05T11:03:41.549+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'mongo_dag', 'check_data', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/mongo_dag.py', '--cfg-path', '/tmp/tmpfhv0356q']
+[2026-03-05T11:03:41.551+0000] {standard_task_runner.py:91} INFO - Job 20: Subtask check_data
+[2026-03-05T11:03:41.605+0000] {task_command.py:426} INFO - Running <TaskInstance: mongo_dag.check_data scheduled__2024-01-01T00:00:00+00:00 [running]> on host ad8b77f7a6a6
+[2026-03-05T11:03:41.682+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='student' AIRFLOW_CTX_DAG_ID='mongo_dag' AIRFLOW_CTX_TASK_ID='check_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2026-03-05T11:03:41.683+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-05T11:03:41.705+0000] {logging_mixin.py:188} INFO - 
+Данные в MongoDB:
+[2026-03-05T11:03:41.720+0000] {logging_mixin.py:188} INFO -   user_sessions: 200
+[2026-03-05T11:03:41.721+0000] {logging_mixin.py:188} INFO -   event_logs: 500
+[2026-03-05T11:03:41.722+0000] {logging_mixin.py:188} INFO -   support_tickets: 50
+[2026-03-05T11:03:41.723+0000] {logging_mixin.py:188} INFO -   user_recommendations: 50
+[2026-03-05T11:03:41.723+0000] {logging_mixin.py:188} INFO -   moderation_queue: 30
+[2026-03-05T11:03:41.724+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-05T11:03:41.725+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-05T11:03:41.735+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=mongo_dag, task_id=check_data, run_id=scheduled__2024-01-01T00:00:00+00:00, execution_date=20240101T000000, start_date=20260305T110341, end_date=20260305T110341
+[2026-03-05T11:03:41.762+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-05T11:03:41.777+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-05T11:03:41.779+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,179 @@
+[2026-03-05T10:59:28.697+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T10:59:28.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T10:59:28.701+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:59:28.700+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T10:59:28.720+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:59:28.717+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mongo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongo_dag.py", line 4, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2026-03-05T10:59:28.721+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T10:59:28.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.052 seconds
+[2026-03-05T10:59:58.890+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T10:59:58.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T10:59:58.893+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:59:58.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T10:59:58.905+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:59:58.903+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mongo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongo_dag.py", line 4, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2026-03-05T10:59:58.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T10:59:58.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.040 seconds
+[2026-03-05T11:00:29.524+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:00:29.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:00:29.527+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:00:29.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:00:29.540+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:00:29.537+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mongo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongo_dag.py", line 4, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2026-03-05T11:00:29.541+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:00:29.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.043 seconds
+[2026-03-05T11:01:27.696+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:01:27.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:01:27.699+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:01:27.698+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:01:27.711+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:01:27.707+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mongo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongo_dag.py", line 4, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2026-03-05T11:01:27.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:01:27.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.043 seconds
+[2026-03-05T11:01:58.635+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:01:58.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:01:58.637+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:01:58.637+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:01:58.649+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:01:58.647+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mongo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongo_dag.py", line 4, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2026-03-05T11:01:58.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:01:58.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.040 seconds
+[2026-03-05T11:02:28.815+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:02:28.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:02:28.817+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:28.817+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:02:28.827+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:28.825+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mongo_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongo_dag.py", line 4, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2026-03-05T11:02:28.828+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:02:28.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.037 seconds
+[2026-03-05T11:02:59.434+0000] {processor.py:161} INFO - Started process (PID=80) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:02:59.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:02:59.437+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:59.436+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:02:59.509+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:02:59.607+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:59.606+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:mongo_dag
+[2026-03-05T11:02:59.615+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:59.615+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:mongo_dag
+[2026-03-05T11:02:59.620+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:59.620+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:mongo_dag
+[2026-03-05T11:02:59.621+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:59.621+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:02:59.631+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:59.630+0000] {dag.py:3111} INFO - Creating ORM DAG for mongo_dag
+[2026-03-05T11:02:59.638+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:02:59.638+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to 2024-01-01 00:00:00+00:00, run_after=2024-01-01 00:00:00+00:00
+[2026-03-05T11:02:59.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.229 seconds
+[2026-03-05T11:03:29.788+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:03:29.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:03:29.791+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:03:29.790+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:03:29.853+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:03:29.880+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:03:29.880+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:03:29.898+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:03:29.898+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:03:29.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.139 seconds
+[2026-03-05T11:04:00.173+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:04:00.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:04:00.176+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:04:00.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:04:00.261+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:04:00.308+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:04:00.308+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:04:00.330+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:04:00.330+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:04:00.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.185 seconds
+[2026-03-05T11:04:30.632+0000] {processor.py:161} INFO - Started process (PID=567) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:04:30.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:04:30.635+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:04:30.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:04:30.695+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:04:30.722+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:04:30.722+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:04:30.741+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:04:30.741+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:04:30.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.139 seconds
+[2026-03-05T11:05:01.636+0000] {processor.py:161} INFO - Started process (PID=746) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:05:01.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:05:01.639+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:05:01.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:05:01.697+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:05:01.724+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:05:01.724+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:05:01.742+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:05:01.742+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:05:01.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.130 seconds
+[2026-03-05T11:05:32.763+0000] {processor.py:161} INFO - Started process (PID=755) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:05:32.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:05:32.765+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:05:32.765+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:05:32.824+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:05:32.850+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:05:32.850+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:05:32.867+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:05:32.867+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:05:32.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.128 seconds
+[2026-03-05T11:06:03.777+0000] {processor.py:161} INFO - Started process (PID=764) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:06:03.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:06:03.779+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:06:03.779+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:06:03.836+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:06:03.863+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:06:03.863+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:06:03.881+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:06:03.881+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:06:03.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.128 seconds
+[2026-03-05T11:06:33.930+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:06:33.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:06:33.932+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:06:33.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:06:33.991+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:06:34.018+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:06:34.018+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:06:34.035+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:06:34.035+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:06:34.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.129 seconds
+[2026-03-05T11:07:05.026+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:07:05.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:07:05.029+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:07:05.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:07:05.086+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:07:05.112+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:07:05.112+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:07:05.129+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:07:05.129+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:07:05.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.126 seconds
+[2026-03-05T11:07:36.175+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:07:36.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:07:36.178+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:07:36.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:07:36.238+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:07:36.264+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:07:36.264+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:07:36.281+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:07:36.281+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:07:36.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.129 seconds
+[2026-03-05T11:08:07.311+0000] {processor.py:161} INFO - Started process (PID=800) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:08:07.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:08:07.313+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:08:07.313+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:08:07.371+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:08:07.398+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:08:07.398+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:08:07.415+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:08:07.415+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:08:07.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.126 seconds
+[2026-03-05T11:08:37.479+0000] {processor.py:161} INFO - Started process (PID=809) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:08:37.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:08:37.481+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:08:37.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:08:37.539+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:08:37.566+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:08:37.565+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:08:37.583+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:08:37.583+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:08:37.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.127 seconds
+[2026-03-05T11:09:08.578+0000] {processor.py:161} INFO - Started process (PID=818) to work on /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:09:08.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mongo_dag.py for tasks to queue
+[2026-03-05T11:09:08.581+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:09:08.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:09:08.645+0000] {processor.py:840} INFO - DAG(s) 'mongo_dag' retrieved from /opt/airflow/dags/mongo_dag.py
+[2026-03-05T11:09:08.675+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:09:08.675+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-05T11:09:08.696+0000] {logging_mixin.py:188} INFO - [2026-03-05T11:09:08.695+0000] {dag.py:3947} INFO - Setting next_dagrun for mongo_dag to None, run_after=None
+[2026-03-05T11:09:08.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mongo_dag.py took 0.141 seconds
